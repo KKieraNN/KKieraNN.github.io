@@ -1,0 +1,196 @@
+body
+{
+	background-image: url("background.jpg");
+	background-size: 100% 100%;
+	font-family: "time new roman";
+	font-size: 20px;
+}
+
+#header
+{
+	width: 35%;
+	height: 10%;
+	position: fixed;
+	left: 15%;
+	top: 7%;
+}
+
+#header #title
+{
+	background-color: rgba(165,165,165,0.6);
+	width: 83%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	border-top: 3px solid black;
+	border-radius: 4px;
+}
+
+#header #title img
+{
+	height: 92%;
+	width: 96%;
+	position: absolute;
+	left: 2%;
+	top: 2%;
+}
+
+#logo
+{
+	height: 20%;
+	width: 14%;
+	position: fixed;
+	top: 2.5%;
+	left: 1%;
+}
+
+#logo img
+{
+	height: 90%;
+	width: 90%;
+	position: absolute;
+	left:0%;
+	top:0%;
+}
+
+#navigation
+{
+	width: 10%;
+	height: 30%;
+	position: fixed;
+	left: 5%;
+	top: 22%;
+	opacity: 0.9;
+}
+
+#navigation ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navigation ul li a
+{	
+	background-color:#A5A5A5;
+	color: black;
+	text-decoration: none;
+    display: block;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	padding-left: 5px;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
+}
+
+#navigation ul li span a
+{
+	background-color:#A5A5A5;
+	padding-top:8px;
+	padding-bottom: 8px;
+	padding-left: 24px;
+}
+
+
+#navigation ul li a:hover
+{
+	background-color: #525252;
+}
+
+#main
+{
+	width: 78%;
+	height: 76%;
+	position: fixed;
+	left: 15%;
+	top: 17%;
+	border: 3px solid black;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+
+}
+
+#main #left
+{
+	background-color: rgba(165,165,165,0.6);
+	width: 62%;
+	height: 100%;
+	position: absolute;
+	left: 0%;
+	top: 0%;
+}
+
+#main #left #content
+{
+	background-color: rgba(215,215,215,0.8);
+	width: 91%;
+	height: 91%;
+	position: absolute;
+	top: 4%;
+	left: 4%;
+	border: 3px solid black;
+	overflow-y: auto;
+}
+
+#main #right
+
+{
+	background-color: rgba(165,165,165,0.6);
+	width: 38%;
+	height: 100%;
+	position: absolute;
+	right: 0%;
+	top: 0%;
+}
+
+#main #right #image
+{
+	background-color: rgba(215,215,215,0.8);
+	width: 91%;
+	height: 34%;
+	position: absolute;
+	top: 4%;
+	right: 4%;
+	border: 3px solid black;
+}
+
+#main #right #image img
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#main #right #current
+{
+	background-color: rgba(215,215,215,0.8);
+	width: 91%;
+	height: 53%;
+	position: absolute;
+	bottom: 4%;
+	right: 4%;
+	border: 3px solid black;
+	overflow-y: auto;
+}
+
+#main #right #current img
+{
+	height: 45%;
+	width: 50%;
+	float: right;
+	margin:8px 8px 2px 8px;
+}
+
+footer
+{
+	position: absolute;
+	bottom: 1%;
+	right: 1%;
+}
+
